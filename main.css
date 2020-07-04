@@ -79,10 +79,7 @@ body{
   display: flex;
   flex-direction: column;
   border: .5px #c3c3c3 solid;
-
-  
   border-radius: 1rem;
-  /* justify-content: space-between; */
 }
 .suggestion{
   display: flex;
@@ -92,18 +89,28 @@ body{
 }
 
 .suggestion:first-child{
-  margin-top: 50px;
-  border-top:1px red solid;
+  margin-top: 40px;
+  border-top:1px #e4e4e4 solid;
+  padding: .6rem  0 0 0;
 }
 .suggestion .name{
   display: flex;
   align-items: center;
 }
+.sug-name:hover{
+  cursor: pointer;
+}
 
 .suggestion .remove{
   display: flex;
   align-items: center;
+  padding: 0 1rem;
 
+}
+.remove:hover{
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
 }
 
 .about{
