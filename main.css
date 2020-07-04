@@ -64,6 +64,10 @@ body{
 
 .search:focus {
   outline: none;
+
+}
+.search:focus + .suggestions{
+  display: block;
 }
 
 .speaker{
@@ -77,8 +81,6 @@ body{
   width: 100%;
   background-color: #fff;
   height: 500px;
-  display: flex;
-  flex-direction: column;
   border: .5px #c3c3c3 solid;
   border-radius: 1rem;
 }
